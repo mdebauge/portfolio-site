@@ -1,0 +1,122 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import 'https://fonts.googleapis.com/css?family=EB+Garamond';
+
+@charset "utf-8";
+
+/*Fonts*/
+@font-face {
+  font-family: 'suisse';
+  src: url('../fonts/SuisseIntl-Regular.otf')  format('opentype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'suisse';
+  src: url('../fonts/SuisseIntl-Medium.otf')  format('opentype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'suisse';
+  src: url('../fonts/SuisseIntl-SemiBold.otf')  format('opentype');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'suisse';
+  src: url('../fonts/SuisseIntl-Bold.otf')  format('opentype');
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'suisse';
+  src: url('../fonts/SuisseIntl-Light.otf')  format('opentype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'leitura';
+  src: url('../fonts/LeituraNews-Roman 1.otf')  format('opentype');
+  font-weight: 400;
+}
+// @font-face {
+//   font-family: 'maison';
+//   src: url('../fonts/maisonneuebook.ttf')  format('truetype');
+//   font-weight: lighter;
+// }
+// @font-face {
+//   font-family: 'maison';
+//   src: url('../fonts/maisonneuebold.ttf')  format('truetype');
+//   font-weight: 500;
+// }
+// @font-face {
+//   font-family: 'inconsolata';
+//   src: url('../fonts/Inconsolata-Regular.ttf')  format('truetype');
+//   font-weight: normal;
+// }
+// @font-face {
+//   font-family: 'inconsolata';
+//   src: url('../fonts/Inconsolata-Bold.ttf')  format('truetype');
+//   font-weight: bold;
+// }
+// @font-face {
+//   font-family: 'tilde';
+//   src: url('../fonts/tilde-regular.ttf')  format('truetype');
+//   font-weight: normal;
+// }
+// @font-face {
+//   font-family: 'tilde';
+//   src: url('../fonts/tilde-bold.ttf')  format('truetype');
+//   font-weight: bold;
+// }
+// @font-face {
+//   font-family: 'tilde';
+//   src: url('../fonts/tilde-light.ttf')  format('truetype');
+//   font-weight: 300;
+// }
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+// $background-color: #fafffd;
+$background-color: #fff;
+$brand-color:      #3333ff;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
