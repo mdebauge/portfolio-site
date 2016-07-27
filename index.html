@@ -2,152 +2,288 @@
 layout: default
 ---
 <img id="flasher" src="img/blank.png">
-<div class="se-pre-con"></div>
-
-<div class="grid-corner hidden-sm-down">
-    <p class="grid-corner-p">Projects</p>
-</div>
-<div class="container grid">
-    <div class="first row">
-        <div class="col-md-8">
+<!-- <div class="container"> -->
+    <div class="se-pre-con"></div>
+    <!-- <ul id="myMenu">
+        <li data-menuanchor="about" class="active"><a href="#about">About</a></li>
+        <li data-menuanchor="link"><a href="#link">Link Light Rail</a></li>
+        <li data-menuanchor="tapeop"><a href="#tapeop">Tape Op Mag</a></li>
+        <li data-menuanchor="portshowlio"><a href="#portshowlio">Portshowlio Website</a></li>
+        <li data-menuanchor="baby"><a href="#baby">Baby</a></li>
+        <li data-menuanchor="sdff"><a href="#sdff">SDFF</a></li>
+        <li data-menuanchor="posters"><a href="#posters">Posters</a></li>
+        <li data-menuanchor="angryvoters"><a href="#angryvoters">Angry Voters</a></li>
+    </ul> -->
+    <div id="fullpage" class="hidden-xs-down">
+        <!-- <div class="section" data-navigation="Information&mdash;" data-link="#">
+            <div id="bg" class="hidden-md-down"></div>
             <div class="row">
-                <a href="link.html">
-                    <div class="col-md-12 grid-project" data-description="Link Light Rail&mdash;branding, identity, wayfinding">
-                        <img src="img/BrandCover.jpg">
-                        <span>Link Light Rail</span>
-                    </div>
-                </a>
+                <div class="col-xs-9 about">
+                    <h1>Michel DeBauge is a Seattle-based graphic designer with an interest in interactive digital media, user experience, and visual identity design.</h1>
+                    <p>A grad of SCCA, he has been a musician in the band, Western Haunts, and before that, graduated from UW with degrees in Psychology and Communication. Recently, he's worked at SAP - Concur as a design intern and also volunteers at ChickTech, teaching web design to high school students.</p>
+                    <a href="mailto:micheldebauge@gmail.com"">Contact: micheldebauge@gmail.com</a>
+                </div>
             </div>
+        </div> -->
+        <div class="section active" data-navigation="Link Light Rail&mdash;branding, identity, wayfinding" data-link="link.html">
             <div class="row">
-                <a href="portshowlio.html">
-                    <div class="col-md-12 grid-project" data-description="2016 SCCA Portshowlio&mdash;interactive">
-                            <div class="port-grid-wrap">
-                                <img src="img/portshowlio/bigonelogo.svg">
-                            </div>
-                            <span>2016 SCCA Portshowlio Website</span>
-                    </div>
-                </a>
-            </div> 
-            <div class="row">
-                <a href="sdff.html">
-                    <div class="col-md-12 grid-project" data-description="Seattle Documentary Film Festival&mdash;identity, ad campaign">
-                        <img src="img/sdff/nicknews.jpg">
-                        <span>Seattle Documentary Film Festival</span>
-                    </div>
-                </a>
-            </div> 
-            <div class="row">
-                <a href="concur.html">
-                    <div class="col-md-12 grid-project" data-description="Concur Labs&mdash;interactive, user experience">
-                        <img src="img/concur/headerhome.jpg">
-                        <span>Concur Labs</span>
-                    </div>
-                </a>
-            </div> 
+                <div class="col-md-7 project link" ontouchstart="showFlash(); flash(linkArray, 40, 0)" onmouseenter="showFlash(); flash(linkArray, 40, 0)" onmouseleave="clearInterval(flashy); hideFlash();" onclick="clearInterval(flashy); hideFlash();">
+                    <a class="project-hover" href="link.html">
+                        <img src="img/Link/BrandCover2.jpg">
+<!--                         <div class="project-details">
+                            <h2>Link Light Rail&mdash;branding, identity, wayfinding</h2>
+                            <p>Branding • Identity • Wayfinding</p>
+                        </div> -->
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4">
+        <div class="section geotrek-section" data-navigation="Geotrek&mdash;user experience, prototyping" data-link="geotrek.html">
             <div class="row">
-                <a href="tapeop.html">
-                     <div class="col-md-12 grid-project" data-description="Tape Op Magazine&mdash;editorial, identity, web">
-                        <img src="img/tapeopcover.jpg">
-                        <span>Tape Op Magazine</span>
-                    </div>
-                </a>
-            </div>
-            <div class="row">
-                <a href="geotrek.html">
-                    <div class="col-md-12 grid-project" data-description="Geotrek&mdash;user experience, prototyping">
+                <div class="col-md-4 project geotrek">
+                    <a class="project-hover" href="geotrek.html">
                         <img src="img/geotrek/geomock.jpg">
-                        <span>Geotrek</span>
-                    </div>
-                </a>
-            </div>
-            <div class="row">
-                <a href="baby.html">
-                    <div class="col-md-12 grid-project" data-description="Baby&mdash;art direction, ad campaign, packaging">
-                        <img src="img/baby/babycover.jpg">
-                        <span>Baby by ACNE</span>
-                    </div>
-                </a>
-            </div>
-            <div class="row">
-                <a href="growth.html">
-                    <div class="col-md-12 grid-project" data-description="Growth App&mdash;user experience, mobile design">
-                        <img src="img/growth/growthmock2.png">
-                        <span>Growth App</span>
-                    </div>
-                </a>
+                        <div class="project-details">
+                            <div class="home-video geo-vid">
+                                <video class="thevideo" loop preload="auto">
+                                    <source src="img/geotrek/HomeScreenReal.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
+        <div class="section" data-navigation="Tape Op Magazine and Website&mdash;editorial, identity, web" data-link="tapeop.html">
             <div class="row">
-                <a href="posters.html">
-                    <div class="col-md-12 grid-project" data-description="Usain Bolt Infographic&mdash;poster, print">
-                        <img src="img/posters/bolt.jpg">
-                        <span>Usain Bolt Infographic</span>
-                    </div>
-                </a>
-            </div>
-            <div class="row">
-                <a href="posters.html">
-                    <div class="col-md-12 grid-project" data-description="Top 5 Microbreweries&mdash;poster, print">
-                         <img src="img/posters/microbreweriesweb.jpg">
-                         <span>Top 5 Microbreweries</span>
-                    </div>
-                </a>
-            </div>
-            <div class="row">
-                <a href="posters.html">
-                     <div class="col-md-12 grid-project" data-description="Craiglist Ad&mdash;poster, print">
-                        <img src="img/posters/shovel.jpg">
-                        <span>Craiglist Ad</span>
-                    </div>
-                </a>
+                <div class="col-md-5 project tapeop" ontouchstart="showFlash(); flash(tapeopArray, 60, 0)" onmouseenter="showFlash(); flash(tapeopArray, 60, 0)" onmouseleave="clearInterval(flashy); hideFlash();" onclick="clearInterval(flashy); hideFlash();">
+                    <a class="project-hover" href="tapeop.html">
+                        <img src="img/TapeOp/Cover.jpg">
+                        <!-- <div class="project-details">
+                            <h2>Tape Op Magazine&mdash;editorial, identity, web design</h2>
+                            <p>Editorial • Identity • Web Design</p>
+                        </div> -->
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="col-md-8">
+        <div class="section portshowlio-section" data-navigation="2016 SCCA Portshowlio&mdash;interactive" data-link="portshowlio.html">
             <div class="row">
-                <a href="posters.html">
-                     <div class="col-md-6 grid-project" data-description="Pet Peeves PSA Poster&mdash;poster, print">
-                        <img src="img/hygiene.jpg">
-                        <span>Pet Peeves PSA Poster</span>
-                    </div>
-                </a>
-                <a href="posters.html">
-                    <div class="col-md-6 grid-project" data-description="Washed Out Gig Poster&mdash;poster, print">
-                         <img src="img/washedout.jpg">
-                         <span>Washed Out Gig Poster</span>
-                    </div>
-                </a>
-            </div>
-            <div class="row">
-                <a href="http://myyawnis.com">
-                    <div class="col-md-12 grid-project" data-description="My Yawn Is&mdash;interactive">
-                        <div class="browser-padding">
+                <div class="col-md-4 project port">
+                    <a class="project-hover port-hover" href="portshowlio.html">
+                        <img src="img/portshowlio/bigonewhite.gif">
+                        
+                        <div class="project-details">
                             <div class="fake-browser-ui">
                                 <div class="frame">
                                     <span></span>
                                     <span></span>
                                     <span></span>
                                 </div>
-                                <img src="img/yawn/intro2.jpg">
+                                <div class="home-video">
+                                    <video class="thevideo" loop preload="auto">
+                                        <source src="img/portshowlio/homescroll.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
                             </div>
                         </div>
-                        <span>My Yawn Is</span>
-                    </div>
-                </a>
-            </div> 
-            <div class="row">
-                <a href="posters.html">
-                    <div class="col-md-12 grid-project" data-description="Dirty Dozen & Clean 15 Mailer&mdash;poster, print">
-                        <img src="img/posters/farmers.jpg">
-                         <span>Dirty Dozen & Clean 15 Mailer</span>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
         </div>
+        <div class="section" data-navigation="Baby&mdash;art direction, ad campaign, packaging" data-link="baby.html">
+            <div class="row">
+                <div class="col-md-3 project baby" ontouchstart="showFlash(); flash(babyArray, 20, 1)" onmouseenter="showFlash(); flash(babyArray, 20, 1)" onmouseleave="clearInterval(flashy); hideFlash();" onclick="clearInterval(flashy); hideFlash();">
+                    <a class="project-hover" href="baby.html">
+                        <img src="img/baby/babycover.jpg">
+                        <!-- <div class="project-details">
+                            <h2>Baby&mdash;art direction, ad campaign, packaging</h2>
+                            <p>Art Direction • Packaging</p>
+                        </div> -->
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="section sdff-section" data-navigation="Seattle Documentary Film Festival&mdash;identity, ad campaign" data-link="sdff.html">
+            <div class="row">
+                <div class="col-md-7 project" ontouchstart="showFlash(); flash(sdffArray, 30, 0)" onmouseenter="showFlash(); flash(sdffArray, 30, 0)" onmouseleave="clearInterval(flashy); hideFlash();" onclick="clearInterval(flashy); hideFlash();">
+                    <a class="project-hover" href="sdff.html">
+                        <img src="img/sdff/nicknews.jpg">
+                        <!-- <div class="project-details">
+                            <h2>Seattle Documentary Film Festival&mdash;<br>identity, ad campaign</h2>
+                            <p>Branding • Ad Campaign</p>
+                        </div> -->
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="section poster-section" data-navigation="Posters&mdash;print" data-link="posters.html">
+            <div class="row">
+                <div class="col-md-6 project" ontouchstart="showFlash(); flash(posterArray, 30, 0)" onmouseenter="showFlash(); flash(posterArray, 30, 0)" onmouseleave="clearInterval(flashy); hideFlash();" onclick="clearInterval(flashy); hideFlash();">
+                    <a class="project-hover" href="posters.html">
+                        <img src="img/posters/washedoutmock.jpg">
+                        <!-- <div class="project-details">
+                            <h2>Posters&mdash;print</h2>
+                            <p>Print</p>
+                        </div> -->
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="section recreation-section" data-navigation="My Yawn Is&mdash;Interactive" data-link="http://myyawnis.com">
+            <div class="row">
+                <div class="col-md-7 project">
+                    <a class="project-hover" href="http://myyawnis.com">
+                        <div class="fake-browser-ui">
+                            <div class="frame">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <img src="img/yawn/intro2.jpg">
+                        </div>
+                        <div class="project-details">
+                            <!-- <h2>My Yawn Is...</h2> -->
+                            <p>A collaboration with Andrew Lawrence, "My Yawn Is..." features self-portraits and yawns of the kooky and spooky SCCA Class of 2016 designers and their teachers.<br><br>Click to go to the site...</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="section" data-navigation="The Angry Voters&mdash;interaction, data viz" data-link="angry.html">
+            <div class="row">
+                <div class="col-md-8 project angry" onmouseover="showFlash(); flash(angryArray)" onmouseout="clearInterval(flashy); hideFlash();">
+                    <a class="project-hover" href="angry.html">
+                        <img class="img-shadow" src="img/angry/angryprofiles.jpg">
+                        <div class="project-details">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div> -->
+        
+    </div>
+       
+<!-- </div> -->
+
+<!--MOBILE-->
+<div class="container grid hidden-sm-up">
+    <div class="first row">
+        <a href="link.html">
+            <div class="col-md-12 grid-project" data-description="Link Light Rail&mdash;branding, identity, wayfinding">
+                <img src="img/BrandCover.jpg">
+                <span>Link Light Rail</span>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <a href="tapeop.html">
+             <div class="col-md-12 grid-project" data-description="Tape Op Magazine&mdash;editorial, identity, web">
+                <img src="img/tapeopcover.jpg">
+                <span>Tape Op Magazine</span>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <a href="portshowlio.html">
+            <div class="col-md-12 grid-project" data-description="2016 SCCA Portshowlio&mdash;interactive">
+                    <div class="port-grid-wrap">
+                        <img src="img/portshowlio/bigonelogo.svg">
+                    </div>
+                    <span>2016 SCCA Portshowlio Website</span>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <a href="baby.html">
+            <div class="col-md-12 grid-project" data-description="Baby&mdash;art direction, ad campaign, packaging">
+                <img src="img/baby/babycover.jpg">
+                <span>Baby by ACNE</span>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <a href="geotrek.html">
+            <div class="col-md-12 grid-project" data-description="Geotrek&mdash;user experience, prototyping">
+                <img src="img/geotrek/geomock.jpg">
+                <span>Geotrek</span>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <a href="sdff.html">
+            <div class="col-md-12 grid-project" data-description="Seattle Documentary Film Festival&mdash;identity, ad campaign">
+                <img src="img/sdff/nicknews.jpg">
+                <span>Seattle Documentary Film Festival</span>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <a href="http://myyawnis.com">
+            <div class="col-md-12 grid-project" data-description="My Yawn Is&mdash;interactive">
+                <div class="browser-padding">
+                    <div class="fake-browser-ui">
+                        <div class="frame">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <img src="img/yawn/intro2.jpg">
+                    </div>
+                </div>
+                <span>My Yawn Is</span>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <a href="posters.html">
+             <div class="col-md-12 grid-project" data-description="Pet Peeves PSA Poster&mdash;poster, print">
+                <img src="img/hygiene.jpg">
+                <span>Pet Peeves PSA Poster</span>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <a href="posters.html">
+            <div class="col-md-12 grid-project" data-description="Washed Out Gig Poster&mdash;poster, print">
+                 <img src="img/washedout.jpg">
+                 <span>Washed Out Gig Poster</span>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <a href="posters.html">
+            <div class="col-md-12 grid-project" data-description="Usain Bolt Infographic&mdash;poster, print">
+                <img src="img/posters/bolt.jpg">
+                <span>Usain Bolt Infographic</span>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <a href="posters.html">
+            <div class="col-md-12 grid-project" data-description="Top 5 Microbreweries&mdash;poster, print">
+                 <img src="img/posters/microbreweriesweb.jpg">
+                 <span>Top 5 Microbreweries</span>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <a href="posters.html">
+             <div class="col-md-4 grid-project" data-description="Craiglist Ad&mdash;poster, print">
+                <img src="img/posters/shovel.jpg">
+                <span>Craiglist Ad</span>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <a href="posters.html">
+            <div class="col-md-8 grid-project" data-description="Dirty Dozen & Clean 15 Mailer&mdash;poster, print">
+                <img src="img/posters/farmers.jpg">
+                 <span>Dirty Dozen & Clean 15 Mailer</span>
+            </div>
+        </a>
     </div>
    
 </div>

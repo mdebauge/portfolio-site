@@ -367,10 +367,10 @@ body {
 
 /*Navigation*/
 .navbar {
-    background: #fff;
-    font-weight: 700;
+    background: transparent;
+    font-weight: bold;
     font-size: 1.2rem;
-    padding: 10px 3% 10px 3%;
+    padding: 10px 3%;
     /*padding:15px 28px 0 28px;*/
     z-index: 10;
 
@@ -387,6 +387,7 @@ body {
     .container {
         border-top: 0px solid #000;
         max-width: 1500px;
+        padding-top: 0.25rem;
 
     }
 }
@@ -407,12 +408,12 @@ body {
         padding-top: 0.425;
         padding-bottom: 0.325;
         margin-right: 2rem;
-        font-size: 1.2rem;
-        font-weight: 700;
+        font-size: 1rem;
+        font-weight: bold;
     }
 }
 .navbar-light .navbar-brand:hover {
-    opacity: 0.6;
+    border-bottom: 1px solid #000;
     color: #000;
 }
 .navbar-push-right {
@@ -426,11 +427,11 @@ body {
     font-size: 1.25rem;
     padding-bottom: 0.325rem;
     @media (min-width: 544px) {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    opacity: 0.6;
+    border-bottom: 1px solid #000;
     color: #000;
 }
 .navbar-nav .nav-item+.nav-item {
@@ -439,7 +440,7 @@ body {
 .navbar-nav .nav-item {
     float: right;
     @media (min-width: 544px) {
-        float: right;
+        float: left;
     }
 }
 .center-nav {
@@ -571,8 +572,9 @@ body {
 }
 .corner-home{
     position: fixed;
-    top: 2%;
-    right: 3%;
+    top: 3%;
+    right: 3.5%;
+    padding: 0 2px;
     text-align: right;
     font-size: 1.25rem;
     font-weight: bold;
@@ -585,18 +587,16 @@ body {
 }
 .corner-project {
     position: fixed;
-    top: 1.2rem;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 2%;
+    right: 5.25%;
     text-align: center;
     font-size: 1.25rem;
     font-weight: bold;
     color: #000!important;
-    transition: opacity 0.5s ease-in-out;
-    opacity: 1;
+    transition: top 0.5s ease-in-out;
 }
 .corner-project-up {
-          opacity: 0!important; 
+          top: -100px!important; 
 }
 // .about-secondary {
 //     position: fixed;
@@ -614,8 +614,8 @@ body {
 #flasher {
     width: 45%;
     position: fixed;
-    top: 15%;
-    left: 15%;  
+    top: 50%;
+    left: 50%;  
     transform: translate(-50%,-50%);
     display: none;
     z-index: 1;
@@ -709,13 +709,9 @@ body {
     @media (min-width: 1500px) {
             max-width: 1500px;
         }
-    @media (max-width: 1500px) {
-        padding-left: 3%;
-        padding-right: 3%;
-    }
 }
 .first {
-    margin-top: 20px;
+    margin-top: 80px;
 }
 .row {
     padding: 15px 0;
@@ -725,11 +721,12 @@ body {
 }
 .intro {
         margin: 0 1rem 0 1rem;
-        // border-bottom: 1px solid black;
+        border-bottom: 1px solid black;
         padding-top: 70px;
     @media (min-width: 544px) {
         // height: 100vh;
         margin: 0;
+        padding-top: 80px;
         // position: fixed;
         // top: 0px;
         // background: $background-color;
@@ -748,10 +745,7 @@ body {
 }
 .about {
     @media (max-width: 768px) {
-        padding-top: 25px;
-    }
-    @media (min-width: 34em) {
-        padding-top: 50px;
+        padding-top: 10%;
     }
     padding-top: 2.4%;
     a {
@@ -765,7 +759,7 @@ body {
         // transform: translateX(-50%);
         border-bottom: 1px solid #000;
         text-align: left;
-        line-height: 3rem;
+        line-height: 2rem;
         @media (min-width: 768px) {
             font-size: 1.4rem;
         }
@@ -777,45 +771,24 @@ body {
     }
 
     p {
-        font-size: 1.15rem;
-        line-height: 1.5rem;
+        font-size: 1.3rem;
+        line-height: 1.25rem;
         text-align: left;
         width: 100%;
-         @media (min-width: 768px) {
-            font-size: 1.5rem;
-            line-height: 2.5rem;
-        }
-        @media (min-width: 48em) {
-            font-size: 2rem;
-            line-height: 3rem;
-        }
-        @media (min-width: 62em) {
-            font-size: 2.15rem;
+        @media (min-width: 768px) {
+            font-size: 2.6rem;
             line-height: 3.25rem;
-        }
-        @media (min-width: 1400px) {
-            font-size: 3.25rem;
-            line-height: 4.25rem;
         }
     }
 }
 .about h1 {
-    font-size: 1.15rem;
-    line-height: 1.5rem;
+    font-size: 1.3rem;
     color: #000;
     font-weight: 400;
     margin-bottom: 20px;
     text-align: left;
     @media (min-width: 768px) {
-        font-size: 1.5rem;
-        line-height: 2.5rem;
-    }
-    @media (min-width: 48em) {
-        font-size: 2rem;
-        line-height: 3rem;
-    }
-    @media (min-width: 62em) {
-        font-size: 2.15rem;
+        font-size: 2.6rem;
         line-height: 3.25rem;
     }
     @media (min-width: 1400px) {
@@ -871,11 +844,11 @@ img {
     }
 }
 .project-details p {
-    // color: $brand-color;
-    font-size: 0.85rem;
+    color: red;
+    font-size: 1rem;
     font-weight: 300;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .project:hover {
@@ -919,13 +892,13 @@ img {
     background: #EE2624;
 }
 .sdff-section {
-    background: #D1EBDE;
+    background: #CEE0E0;
 }
 .poster-section {
     background: #efefef;
 }
 .geotrek-section {
-    background: #D2FFD9;
+    background: #d2d2d2;
 }
 .project-hover {
     z-index: 2;
@@ -983,7 +956,6 @@ img {
     text-transform: uppercase;
     border-bottom: 1px solid #000;
      a {
-        font-size: 0.8rem;
         color: #000;
         padding: 0px 0;
         &:hover {
@@ -1025,12 +997,10 @@ img {
         text-align: center;
         margin-top: 1rem;
         @media (min-width: 544px) {
-    		font-size: 1.1rem;
+    		font-size: 1.3rem;
             text-align: left;
-            line-height: 1.75rem;
+            line-height: 2.2rem;
             margin-top: 0;
-            padding-top: 0.5rem;
-            border-top: 1px solid #000;
     	}
     }
     p {
@@ -1043,22 +1013,17 @@ img {
         }
     }
     h2 {
-        font-family: 'leitura', serif;
         font-size: 1rem;
         font-weight: bold;
         text-align: left;
         padding: 1rem;
         line-height: 1.5rem;
         @media (min-width: 544px) {
-            font-size: 1.1rem;
-            line-height: 1.75rem;
+            font-size: 1.3rem;
+            line-height: 2.2rem;
             padding: 0;
             font-weight: 300;
         }
-    }
-    h2:first-child {
-        padding-top: 0.5rem;
-        border-top: 1px solid #000;
     }
     h3 {
         font-size: 0.75rem;
@@ -1070,34 +1035,6 @@ img {
         @media (min-width: 544px) {
             font-size: 0.75rem;
             line-height: 1.25rem;
-        }
-    }
-    h4 {
-        font-size: 3rem;
-        font-weight: bold;
-        text-align: center;
-        margin-top: 1rem;
-        @media (min-width: 544px) {
-            font-size: 1.1rem;
-            text-align: left;
-            line-height: 1.75rem;
-            margin-top: 0;
-            padding-top: 0.5rem;
-        }
-    }
-    h5 {
-        font-family: 'leitura', serif;
-        font-size: 1rem;
-        font-weight: bold;
-        text-align: left;
-        padding: 1rem;
-        line-height: 1.5rem;
-        @media (min-width: 544px) {
-            font-size: 1.1rem;
-            line-height: 1.75rem;
-            padding: 0;
-            padding-top: 0.5rem;
-            font-weight: 300;
         }
     }
 }
@@ -1189,10 +1126,6 @@ video {
             padding-left: 1.25rem;
             padding-right: 1.25rem;
         }
-
-        a:hover {
-            cursor: pointer;
-        }
     }
 }
 .grid.container {
@@ -1237,13 +1170,11 @@ video {
     margin-bottom: 0.55rem;
 }
 .grid-corner {
-    padding: 0 0.25rem;
     position: fixed;
-    top: 1.15rem;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 2%;
+    right: 3%;
     p {
-        font-size: 1.2rem;
+        font-size: 1.75rem;
         font-weight: 700;
         color: #000;
     }
@@ -1261,10 +1192,9 @@ video {
     letter-spacing: 0.1rem;
  }
  .process p {
-    font-family: 'leitura', sans-serif;
     font-weight: 300;
-    font-size: 1.1rem;
-    line-height: 1.75rem;
+    font-size: 1.3rem;
+    line-height: 2.2rem;
     margin-left: 0rem;
  }
  .gray {
@@ -1289,21 +1219,11 @@ video {
     z-index: 9;
 }
 #about-x {
-    display: none;
     padding: 1rem;
     cursor: pointer;
     position: fixed;
-    width: 75px;
-    bottom: 5%;
-    right: 50%;
-    transform: translateX(50%);
+    width: 6%;
+    top: 7%;
+    right: 4%;
     z-index: 1;
-    @media (min-width: 48em) {
-        width: 75px;
-    }
-    @media (min-width: 62em) {
-        width: 75px;
-        top: 7%;
-        right: 4%;
-    }
 }

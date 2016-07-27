@@ -99,25 +99,12 @@ $('video').click(function() {
 $('#about-item').click(function(event){
   event.stopPropagation();
   event.preventDefault();
-
-  if(!$('.about-wrap').is(':visible'))
-  {
-    $('.about-wrap').fadeIn('slow');
-    $('.corner-home').fadeOut('slow');
-    $('#about-item').html('Close');
-  }
-  else
-  {
-    $('.about-wrap').fadeOut('slow');
-    $('.corner-home').fadeIn('slow');
-    $('#about-item').html('Info');
-  }
+  $('.about-wrap').fadeIn('slow');
+  $('.corner-home').fadeOut('slow');
 });
-
 $('.about-wrap').click(function(){
   $('.about-wrap').fadeOut('slow');
   $('.corner-home').fadeIn('slow');
-  $('#about-item').html('Info');
 });
 
 //Corner Link
@@ -156,7 +143,7 @@ $('.grid-project').mouseover(function() {
    $('.grid-corner-p').html(dataGrid);
  })
   .mouseleave(function() {
-    $('.grid-corner-p').html('Projects');
+    $('.grid-corner-p').html('Designer & Front-end Developer');
   });
 
 //Hide Nav2
@@ -189,34 +176,37 @@ function numberRandomizer(){
 var linkArray = new Array();
 
 linkArray[0] = new Image();
-linkArray[0].src = 'img/blank.png';
+linkArray[0].src = 'img/Link/logopage.jpg';
 
 linkArray[1] = new Image();
-linkArray[1].src = 'img/Link/logopage.jpg';
+linkArray[1].src = 'img/Link/trains.jpg';
 
 linkArray[2] = new Image();
-linkArray[2].src = 'img/Link/trains.jpg';
+linkArray[2].src = 'img/Link/wayfinding.jpg';
 
 linkArray[3] = new Image();
-linkArray[3].src = 'img/Link/wayfinding.jpg';
+linkArray[3].src = 'img/Link/businesscards.jpg';
 
 linkArray[4] = new Image();
-linkArray[4].src = 'img/Link/businesscards.jpg';
+linkArray[4].src = 'img/Link/ticketsandcard.jpg';
 
 linkArray[5] = new Image();
-linkArray[5].src = 'img/Link/ticketsandcard.jpg';
+linkArray[5].src = 'img/Link/BrochureCoverMocks.jpg';
 
 linkArray[6] = new Image();
-linkArray[6].src = 'img/Link/BrochureCoverMocks.jpg';
+linkArray[6].src = 'img/Link/brochure1.jpg';
 
 linkArray[7] = new Image();
-linkArray[7].src = 'img/Link/brochure1.jpg';
+linkArray[7].src = 'img/Link/WebsiteMock.jpg';
+
+linkArray[8] = new Image();
+linkArray[8].src = 'img/Link/mobilemock.jpg';
 
 //Tape Op Array
 var tapeopArray = new Array();
 
 tapeopArray[0] = new Image();
-tapeopArray[0].src = 'img/blank.png';
+tapeopArray[0].src = 'img/TapeOp/contents.jpg';
 
 tapeopArray[1] = new Image();
 tapeopArray[1].src = 'img/TapeOp/jacco.jpg';
@@ -225,7 +215,7 @@ tapeopArray[2] = new Image();
 tapeopArray[2].src = 'img/TapeOp/sufjan1.jpg';
 
 tapeopArray[3] = new Image();
-tapeopArray[3].src = 'img/TapeOp/contents.jpg';
+tapeopArray[3].src = 'img/TapeOp/tapeopbrowser.jpg';
 
 tapeopArray[4] = new Image();
 tapeopArray[4].src = 'img/TapeOp/westernfirst.jpg';
@@ -240,151 +230,85 @@ tapeopArray[6].src = 'img/TapeOp/temples.jpg';
 var sdffArray = new Array();
 
 sdffArray[0] = new Image();
-sdffArray[0].src = 'img/blank.png';
+sdffArray[0].src = 'img/sdff/billboardmock.jpg';
 
 sdffArray[1] = new Image();
-sdffArray[1].src = 'img/sdff/billboardmock.jpg';
+sdffArray[1].src = 'img/sdff/bobnews.jpg';
 
 sdffArray[2] = new Image();
-sdffArray[2].src = 'img/sdff/bobnews.jpg';
+sdffArray[2].src = 'img/sdff/closedoor.jpg';
 
 sdffArray[3] = new Image();
-sdffArray[3].src = 'img/sdff/closedoor.jpg';
+sdffArray[3].src = 'img/sdff/nickposter.jpg';
 
 sdffArray[4] = new Image();
-sdffArray[4].src = 'img/sdff/nickposter.jpg';
+sdffArray[4].src = 'img/sdff/amyposter.jpg';
 
 sdffArray[5] = new Image();
-sdffArray[5].src = 'img/sdff/amyposter.jpg';
-
-sdffArray[6] = new Image();
-sdffArray[6].src = 'img/sdff/bobtote.jpg';
+sdffArray[5].src = 'img/sdff/bobtote.jpg';
 
 //Baby Array
 var babyArray = new Array();
 
 babyArray[0] = new Image();
-babyArray[0].src = 'img/blank.png';
+babyArray[0].src = 'img/baby/babyboy.jpg';
 
 babyArray[1] = new Image();
-babyArray[1].src = 'img/baby/babyboy.jpg';
+babyArray[1].src = 'img/baby/babypackaging.jpg';
 
 babyArray[2] = new Image();
-babyArray[2].src = 'img/baby/babypackaging.jpg';
+babyArray[2].src = 'img/baby/babygirl.jpg';
 
 babyArray[3] = new Image();
-babyArray[3].src = 'img/baby/babygirl.jpg';
+babyArray[3].src = 'img/baby/babypostermock.jpg';
 
 babyArray[4] = new Image();
-babyArray[4].src = 'img/baby/babypostermock.jpg';
-
-babyArray[5] = new Image();
-babyArray[5].src = 'img/baby/MagAd.jpg';
+babyArray[4].src = 'img/baby/MagAd.jpg';
 
 //Poster Array
 var posterArray = new Array();
 
 posterArray[0] = new Image();
-posterArray[0].src = 'img/blank.png';
+posterArray[0].src = 'img/posters/microbreweriesweb.jpg';
 
 posterArray[1] = new Image();
-posterArray[1].src = 'img/posters/microbreweriesweb.jpg';
+posterArray[1].src = 'img/posters/farmersback.jpg';
 
 posterArray[2] = new Image();
-posterArray[2].src = 'img/posters/farmersback.jpg';
+posterArray[2].src = 'img/posters/shovel.jpg';
 
 posterArray[3] = new Image();
-posterArray[3].src = 'img/posters/shovel.jpg';
+posterArray[3].src = 'img/posters/skier.jpg';
 
 posterArray[4] = new Image();
-posterArray[4].src = 'img/posters/skier.jpg';
+posterArray[4].src = 'img/hygiene.jpg';
 
 posterArray[5] = new Image();
-posterArray[5].src = 'img/hygiene.jpg';
-
-posterArray[6] = new Image();
-posterArray[6].src = 'img/dreamgirls.jpg';
+posterArray[5].src = 'img/dreamgirls.jpg';
 
 //Angry Array
 var angryArray = new Array();
 
 angryArray[0] = new Image();
-angryArray[0].src = 'img/blank.png';
+angryArray[0].src = 'img/angry/angryprofiles.jpg';
 
 angryArray[1] = new Image();
-angryArray[1].src = 'img/angry/angryprofiles.jpg';
+angryArray[1].src = 'img/angry/array/angryhead.jpg';
 
 angryArray[2] = new Image();
-angryArray[2].src = 'img/angry/array/angryhead.jpg';
+angryArray[2].src = 'img/angry/array/dataviz1.jpg';
 
 angryArray[3] = new Image();
-angryArray[3].src = 'img/angry/array/dataviz1.jpg';
+angryArray[3].src = 'img/angry/array/tideturn.jpg';
 
 angryArray[4] = new Image();
-angryArray[4].src = 'img/angry/array/tideturn.jpg';
+angryArray[4].src = 'img/angry/array/hillarytrump.jpg';
 
 angryArray[5] = new Image();
-angryArray[5].src = 'img/angry/array/hillarytrump.jpg';
+angryArray[5].src = 'img/angry/array/whatwillhappen.jpg';
 
 angryArray[6] = new Image();
-angryArray[6].src = 'img/angry/array/whatwillhappen.jpg';
-
-angryArray[7] = new Image();
-angryArray[7].src = 'img/angry/array/pullquote.jpg';
-
-//Portshowlio Array
-var portshowlioArray = new Array();
-
-portshowlioArray[0] = new Image();
-portshowlioArray[0].src = 'img/blank.png';
-
-portshowlioArray[1] = new Image();
-portshowlioArray[1].src = 'img/portshowlio/bigonewhite.gif';
-
-portshowlioArray[2] = new Image();
-portshowlioArray[2].src = 'img/portshowlio/bigonewhite.gif';
-
-portshowlioArray[3] = new Image();
-portshowlioArray[3].src = 'img/portshowlio/bigonewhite.gif';
-
-portshowlioArray[4] = new Image();
-portshowlioArray[4].src = 'img/portshowlio/bigonewhite.gif';
-
-portshowlioArray[5] = new Image();
-portshowlioArray[5].src = 'img/portshowlio/bigonewhite.gif';
-
-portshowlioArray[6] = new Image();
-portshowlioArray[6].src = 'img/portshowlio/bigonewhite.gif';
-
-portshowlioArray[7] = new Image();
-portshowlioArray[7].src = 'img/portshowlio/bigonewhite.gif';
-
-//Geotrek Array
-var geotrekArray = new Array();
-
-geotrekArray[0] = new Image();
-geotrekArray[0].src = 'img/blank.png';
-
-geotrekArray[1] = new Image();
-geotrekArray[1].src = 'img/geotrek/array/homemap.jpg';
-
-geotrekArray[2] = new Image();
-geotrekArray[2].src = 'img/geotrek/array/journey.jpg';
-
-geotrekArray[3] = new Image();
-geotrekArray[3].src = 'img/geotrek/array/progress.jpg';
-
-geotrekArray[4] = new Image();
-geotrekArray[4].src = 'img/geotrek/array/clue.jpg';
-
-geotrekArray[5] = new Image();
-geotrekArray[5].src = 'img/geotrek/array/token.jpg';
-
-geotrekArray[6] = new Image();
-geotrekArray[6].src = 'img/geotrek/array/details.jpg';
-
-geotrekArray[7] = new Image();
-geotrekArray[7].src = 'img/geotrek/array/starmap.jpg';
+angryArray[6].src = 'img/angry/array/pullquote.jpg';
 
 
 /*------------------------------------*/
@@ -441,6 +365,8 @@ function nextImage(element, imgArray, setWidth, randomize)
 }
 
 function flash(setProject, setWidth, randomize) {
+  document.getElementById('flasher').style.width = setWidth + '%';
+  document.getElementById('flasher').src = setProject[0].src;
   flashy = setInterval(function(){ nextImage('flasher', setProject, setWidth, randomize) }, 1200);
 }
 function showFlash() {
