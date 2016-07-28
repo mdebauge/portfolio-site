@@ -441,7 +441,8 @@ body {
   .navbar .container {
     border-top: 0px solid #000;
     max-width: 1500px;
-    padding-top: 0.25rem; }
+    padding-top: 0.25rem;
+    padding-left: 2.4%; }
 
 .navbar-light .navbar-brand {
   color: #000;
@@ -581,16 +582,17 @@ body {
 
 .corner-project {
   position: fixed;
-  top: 2%;
+  top: 1.65rem;
   right: 5.25%;
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: bold;
   color: #000 !important;
-  transition: top 0.5s ease-in-out; }
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out; }
 
 .corner-project-up {
-  top: -100px !important; }
+  opacity: 0 !important; }
 
 /*flash*/
 #flasher {
@@ -707,8 +709,21 @@ body {
   /*background: #003DFF;*/
   text-align: left; }
 
+#about-img {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  width: 50%;
+  opacity: 0.5;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%); }
+  #about-img img {
+    width: 100%; }
+
 .about {
-  padding-top: 2.4%; }
+  padding-top: 7%;
+  padding-left: 3%;
+  padding-right: 20px; }
   @media (max-width: 768px) {
     .about {
       padding-top: 10%; } }
@@ -723,7 +738,7 @@ body {
     line-height: 2rem; }
     @media (min-width: 768px) {
       .about a {
-        font-size: 1.4rem; } }
+        font-size: 1.25rem; } }
   .about a:hover {
     cursor: pointer;
     text-decoration: none;
@@ -735,8 +750,8 @@ body {
     width: 100%; }
     @media (min-width: 768px) {
       .about p {
-        font-size: 2.6rem;
-        line-height: 3.25rem; } }
+        font-size: 1rem;
+        line-height: 1.75rem; } }
 
 .about h1 {
   font-size: 1.3rem;
@@ -746,11 +761,11 @@ body {
   text-align: left; }
   @media (min-width: 768px) {
     .about h1 {
-      font-size: 2.6rem;
-      line-height: 3.25rem; } }
+      font-size: 1rem;
+      line-height: 1.75rem; } }
   @media (min-width: 1400px) {
     .about h1 {
-      font-size: 3.25rem;
+      font-size: 2rem;
       line-height: 4.25rem; } }
 
 img {
@@ -837,7 +852,13 @@ img {
   background: #efefef; }
 
 .geotrek-section {
-  background: #d2d2d2; }
+  background: #D3FFDB; }
+
+.growth-section {
+  background: #3D61FE; }
+
+.baby-section {
+  background: #FEEAED; }
 
 .project-hover {
   z-index: 2; }
@@ -892,6 +913,7 @@ img {
   border-bottom: 1px solid #000; }
   .pagination a {
     color: #000;
+    font-size: 0.8rem;
     padding: 0px 0; }
     .pagination a:hover {
       text-decoration: none;
