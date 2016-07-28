@@ -822,13 +822,14 @@ img {
   z-index: 2; }
   .all-projects div {
     padding: 0.25rem 0; }
+    .all-projects div span {
+      font-size: 0.85rem;
+      opacity: 0.4;
+      padding-right: 1rem; }
   .all-projects a {
     color: black;
     font-size: 0.85rem;
     font-weight: 700; }
-    .all-projects a span {
-      opacity: 0.3;
-      padding-right: 1rem; }
   .all-projects a:hover {
     text-decoration: none;
     border-bottom: 1px solid #000; }
