@@ -818,6 +818,21 @@ img {
 .project:hover {
   cursor: pointer; }
 
+.all-projects {
+  z-index: 2; }
+  .all-projects div {
+    padding: 0.25rem 0; }
+  .all-projects a {
+    color: black;
+    font-size: 0.85rem;
+    font-weight: 700; }
+    .all-projects a span {
+      opacity: 0.3;
+      padding-right: 1rem; }
+  .all-projects a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #000; }
+
 .img-shadow {
   -webkit-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
