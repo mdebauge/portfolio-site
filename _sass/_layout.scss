@@ -444,6 +444,9 @@ body {
         float: left;
     }
 }
+#corner-item {
+    float: right;
+}
 .center-nav {
     position: absolute;
     top: 1.75rem;
@@ -572,10 +575,10 @@ body {
     }
 }
 .corner-home{
-    position: fixed;
-    top: 3%;
-    right: 3.5%;
-    padding: 0 2px;
+    // position: fixed;
+    // top: 3%;
+    // right: 3.5%;
+    // padding: 0 2px;
     text-align: right;
     font-size: 1.25rem;
     font-weight: bold;
@@ -815,10 +818,6 @@ body {
         font-size: 0.85rem;
         line-height: 1.75rem;
     }
-    @media (min-width: 1400px) {
-        font-size: 2rem;
-        line-height: 4.25rem;
-    }
 }
 .scroll-down {
     position: absolute;
@@ -895,6 +894,7 @@ img {
 .all-projects {
     z-index: 2;
     div {
+        margin-left: -10px;
         padding: 0.25rem 0;
         .portfolio-dates {
             font-size: 0.85rem;

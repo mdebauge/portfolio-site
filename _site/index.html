@@ -69,7 +69,7 @@
   </button>
   <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2"> -->
         <a class="navbar-brand" href="http://micheldebauge.com">Michel DeBauge</a>
-        <a class="corner-home hidden-xs-down" href=""></a>
+        <!-- <a class="corner-home hidden-xs-down" href=""></a> -->
         <h1 class="corner-project corner-project-up hidden-xs-down"></h1>
         <!-- <a class="about-secondary" href="#">About</a> -->
         <ul class="nav navbar-nav">
@@ -86,6 +86,9 @@
          <!--  </div> -->
           <li class="nav-item" id="about-about">
             <a class="nav-link" id="about-item" href="#projects">All Projects</a>
+          </li>
+          <li class="nav-item" id="corner-item">
+            <a class="nav-link corner-home hidden-s-down" href="">All Projects</a>
           </li>
 <!--           <li class="nav-item">
             <a class="nav-link" id="contact-item" href="about.html">Contact</a>
@@ -156,7 +159,7 @@
                         <img src="img/geotrek/geomock2.jpg">
                         <div class="project-details">
                             <div class="home-video geo-vid">
-                                <video class="thevideo" loop preload="auto">
+                                <video class="thevideo" loop preload="auto" poster="img/geotrek/geomock2.jpg">
                                     <source src="img/geotrek/HomeScreenReal.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
@@ -181,7 +184,7 @@
         </div>
         <div class="section growth-section" data-navigation="Growth App&mdash;user experience, prototyping" data-link="growth.html">
             <div class="row">
-                <div class="col-md-3 project growth">
+                <div class="col-md-3 col-md-offset-0 col-xs-8 col-xs-offset-2 project growth">
                     <a class="project-hover" href="growth.html">
                         <img src="img/growth/growthmock4.png">
                         <div class="project-details">
@@ -198,7 +201,7 @@
         </div>
         <div class="section portshowlio-section" data-navigation="2016 SCCA Portshowlio Website&mdash;interactive" data-link="portshowlio.html">
             <div class="row">
-                <div class="col-md-7 project port">
+                <div class="col-md-7 col-md-offset-0 col-xs-10 col-xs-offset-1 project port">
                     <a class="project-hover port-hover" href="portshowlio.html">
                         <div class="fake-browser-ui img-shadow">
                                 <div class="frame">
@@ -232,7 +235,7 @@
         </div>
         <div class="section sdff-section" data-navigation="Seattle Documentary Film Festival&mdash;identity, ad campaign" data-link="sdff.html">
             <div class="row">
-                <div class="col-md-7 project" ontouchstart="showFlash(); flash(sdffArray, 30, 0)" onmouseenter="showFlash(); flash(sdffArray, 30, 0)" onmouseleave="clearInterval(flashy); hideFlash();" onclick="clearInterval(flashy); hideFlash();">
+                <div class="col-md-7 col-md-offset-0 col-xs-10 col-xs-offset-1 project" ontouchstart="showFlash(); flash(sdffArray, 30, 0)" onmouseenter="showFlash(); flash(sdffArray, 30, 0)" onmouseleave="clearInterval(flashy); hideFlash();" onclick="clearInterval(flashy); hideFlash();">
                     <a class="project-hover" href="sdff.html">
                         <img src="img/sdff/nicknews.jpg">
                         <!-- <div class="project-details">
@@ -287,7 +290,7 @@
         <div class="section" data-navigation="All Projects&mdash;" data-link="#">
             <div class="container">
             <div class="row">
-                <div class="col-md-10 col-md-offset-1 all-projects">
+                <div class="col-md-12 all-projects">
                     <div><p>Design Portfolio</p></div>
                     <div>
                         <span class="portfolio-dates">2016</span>
