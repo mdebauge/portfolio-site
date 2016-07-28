@@ -11,25 +11,21 @@ $('#bg').load('bg.html');
 //fullpage
 var isPhoneDevice = "ontouchstart" in document.documentElement; 
 $(document).ready(function() {
-        if(isPhoneDevice){
-            //mobile
-        }
-            else{
-                //desktop               
-                $(document).ready(function() {
-                    $('#fullpage').fullpage({
-                      navigation: true,
-                      scrollBar: true,
-                      loopTop: true,
-                      loopBottom: true,
-                      anchors:['link', 'geotrek', 'tapeop', 'portshowlio', 'baby', 'sdff', 'posters','recreational'],
-                      onLeave: function(index, nextIndex, direction) {
-                        $('#flasher').hide();
-                      }
-                    });
-                });
+      //desktop               
+      $(document).ready(function() {
+          $('#fullpage').fullpage({
+            navigation: true,
+            scrollBar: true,
+            loopTop: true,
+            loopBottom: true,
+            anchors:['link', 'geotrek', 'tapeop', 'portshowlio', 'baby', 'sdff', 'posters','recreational'],
+            onLeave: function(index, nextIndex, direction) {
+              $('#flasher').hide();
             }
-        });
+          });
+      });
+  
+});
 
       
 
@@ -164,6 +160,17 @@ function hoverVideo(e) {
 function hideVideo(e) {
     $('video', this).get(0).pause(); 
 }
+
+$(document).ready(function () {
+    $(".all-projects-hover").hover(function () {
+        $(this).find("video")[0].play();
+    }, function () {
+        var el = $(this).find("video")[0];
+        el.pause();
+        el.currentTime = 0;
+    });
+});
+
 
 //Random number generator
 function numberRandomizer(){

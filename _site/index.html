@@ -85,7 +85,7 @@
           </li> -->
          <!--  </div> -->
           <li class="nav-item" id="about-about">
-            <a class="nav-link" id="about-item" href="#about">Info</a>
+            <a class="nav-link" id="about-item" href="#projects">All Projects</a>
           </li>
 <!--           <li class="nav-item">
             <a class="nav-link" id="contact-item" href="about.html">Contact</a>
@@ -125,18 +125,18 @@
         <li data-menuanchor="posters"><a href="#posters">Posters</a></li>
         <li data-menuanchor="angryvoters"><a href="#angryvoters">Angry Voters</a></li>
     </ul> -->
-    <div id="fullpage" class="hidden-xs-down">
-        <!-- <div class="section" data-navigation="Information&mdash;" data-link="#">
+    <div id="fullpage">
+        <div class="section active" data-navigation="Information&mdash;" data-link="#">
             <div id="bg" class="hidden-md-down"></div>
             <div class="row">
-                <div class="col-xs-9 about">
-                    <h1>Michel DeBauge is a Seattle-based graphic designer with an interest in interactive digital media, user experience, and visual identity design.</h1>
-                    <p>A grad of SCCA, he has been a musician in the band, Western Haunts, and before that, graduated from UW with degrees in Psychology and Communication. Recently, he's worked at SAP - Concur as a design intern and also volunteers at ChickTech, teaching web design to high school students.</p>
+                <div class="col-md-5 about">
+                    <h1>Michel DeBauge a multi-disciplinary designer and front-end developer with an interest in interactive user experience and product design.</h1>
+                    <p>A grad of SCCA, he has been a musician in the band, Western Haunts, and before that, graduated from UW with degrees in Psychology and Communication. Recently, he has worked at SAP Concur Technologies as a UI/UX design intern and also volunteered at ChickTech, teaching web design to high school students.</p>
                     <a href="mailto:micheldebauge@gmail.com"">Contact: micheldebauge@gmail.com</a>
                 </div>
             </div>
-        </div> -->
-        <div class="section active" data-navigation="Link Light Rail&mdash;branding, identity, wayfinding" data-link="link.html">
+        </div>
+        <div class="section" data-navigation="Link Light Rail&mdash;branding, identity, wayfinding" data-link="link.html">
             <div class="row">
                 <div class="col-md-7 project link" ontouchstart="showFlash(); flash(linkArray, 40, 0)" onmouseenter="showFlash(); flash(linkArray, 40, 0)" onmouseleave="clearInterval(flashy); hideFlash();" onclick="clearInterval(flashy); hideFlash();">
                     <a class="project-hover" href="link.html">
@@ -198,9 +198,18 @@
         </div>
         <div class="section portshowlio-section" data-navigation="2016 SCCA Portshowlio Website&mdash;interactive" data-link="portshowlio.html">
             <div class="row">
-                <div class="col-md-4 project port">
+                <div class="col-md-7 project port">
                     <a class="project-hover port-hover" href="portshowlio.html">
-                        <img src="img/portshowlio/bigonewhite.gif">
+                        <div class="fake-browser-ui img-shadow">
+                                <div class="frame">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="home-video">
+                                    <img src="img/portshowlio/screen1.jpg">
+                                </div>
+                            </div>
                         
                         <div class="project-details">
                             <div class="fake-browser-ui">
@@ -276,39 +285,97 @@
             </div>
         </div> -->
         <div class="section" data-navigation="All Projects&mdash;" data-link="#">
+            <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 all-projects">
+                    <div><p>Design Portfolio</p></div>
                     <div>
-                        <span>2016</span><a href="#">Growth App &mdash; user experience, prototyping</a>
+                        <span class="portfolio-dates">2016</span>
+                        <a class="all-projects-hover" href="growth.html">Growth App<span class="hidden-xs-down"> &mdash; user experience, prototyping</span>
+                            <div class="all-project-details growth">
+                                <div class="home-video">
+                                    <video class="thevideo" loop preload="auto">
+                                        <source src="img/growth/growthvid2.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <div>
-                        <span>2016</span><a href="#" ontouchstart="showFlash(); flash(linkArray, 40, 0)" onmouseenter="showFlash(); flash(linkArray, 40, 0)" onmouseleave="clearInterval(flashy); hideFlash();" onclick="clearInterval(flashy); hideFlash();">Link Light Rail &mdash; branding, identity, wayfinding</a>
+                        <span class="portfolio-dates">2016</span><a href="link.html" ontouchstart="showFlash(); flash(linkArray, 40, 0)" onmouseenter="showFlash(); flash(linkArray, 40, 0)" onmouseleave="clearInterval(flashy); hideFlash();" onclick="clearInterval(flashy); hideFlash();">Link Light Rail<span class="hidden-xs-down"> &mdash; branding, identity, wayfinding</span></a>
                     </div>
                     <div>
-                        <span>2016</span><a href="#">Geotrek &mdash; user experience, prototyping</a>
+                        <span class="portfolio-dates">2016</span>
+                        <a class="all-projects-hover" href="portshowlio.html">SCCA Portshowlio Website<span class="hidden-xs-down"> &mdash; Interactive, Web</span>
+                            <div class="all-project-details portshowlio">
+                                <div class="fake-browser-ui">
+                                    <div class="frame">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="home-video">
+                                        <video class="thevideo" loop preload="auto">
+                                            <source src="img/portshowlio/homescroll.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <div>
-                        <span>2016</span><a href="#">SCCA Portshowlio Website &mdash; Interactive, Web</a>
+                        <span class="portfolio-dates">2016</span>
+                        <a class="all-projects-hover" href="geotrek.html">Geotrek<span class="hidden-xs-down"> &mdash; user experience, prototyping</span>
+                            <div class="all-project-details geotrek">
+                                <div class="home-video geo-vid">
+                                    <video class="thevideo" loop preload="auto">
+                                        <source src="img/geotrek/HomeScreenReal.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </a>
+                        
                     </div>
                     <div>
-                        <span>2016</span><a href="#">My Yawn Is &mdash; interactive, personal project</a>
+                        <span class="portfolio-dates">2016</span>
+                        <a class="all-projects-hover" href="http://myyawnis.com">My Yawn Is<span class="hidden-xs-down"> &mdash; interactive, personal project</span>
+                        <div class="all-project-details myyawn">
+                                <div class="fake-browser-ui">
+                                    <div class="frame">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <img src="img/yawn/intro2.jpg">
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <div>
-                        <span>2016</span><a href="#" ontouchstart="showFlash(); flash(babyArray, 20, 0)" onmouseenter="showFlash(); flash(babyArray, 20, 0)" onmouseleave="clearInterval(flashy); hideFlash();" onclick="clearInterval(flashy); hideFlash();">Baby &mdash; art direction, packaging</a>
+                        <span class="portfolio-dates">2016</span><a href="baby.html" ontouchstart="showFlash(); flash(babyArray, 25, 0)" onmouseenter="showFlash(); flash(babyArray, 25, 0)" onmouseleave="clearInterval(flashy); hideFlash();" onclick="clearInterval(flashy); hideFlash();">Baby<span class="hidden-xs-down"> &mdash; art direction, packaging</span></a>
                     </div>
                     <div>
-                        <span>2015</span><a href="#" ontouchstart="showFlash(); flash(tapeopArray, 60, 0)" onmouseenter="showFlash(); flash(tapeopArray, 60, 0)" onmouseleave="clearInterval(flashy); hideFlash();" onclick="clearInterval(flashy); hideFlash();">Tape Op Magazine and Website &mdash; editorial, identity, web</a>
+                        <span class="portfolio-dates">2015</span><a href="tapeop.html" ontouchstart="showFlash(); flash(tapeopArray, 60, 0)" onmouseenter="showFlash(); flash(tapeopArray, 60, 0)" onmouseleave="clearInterval(flashy); hideFlash();" onclick="clearInterval(flashy); hideFlash();">Tape Op Magazine and Website<span class="hidden-xs-down"> &mdash; editorial, identity, web</span></a>
                     </div>
                     <div>
-                        <span>2015</span><a href="#" ontouchstart="showFlash(); flash(sdffArray, 30, 0)" onmouseenter="showFlash(); flash(sdffArray, 30, 0)" onmouseleave="clearInterval(flashy); hideFlash();" onclick="clearInterval(flashy); hideFlash();">Seattle Documentary Film Festival &mdash; identity, ad campaign</a>
+                        <span class="portfolio-dates">2015</span><a href="sdff.html" ontouchstart="showFlash(); flash(sdffArray, 35, 0)" onmouseenter="showFlash(); flash(sdffArray, 35, 0)" onmouseleave="clearInterval(flashy); hideFlash();" onclick="clearInterval(flashy); hideFlash();">Seattle Documentary Film Festival<span class="hidden-xs-down"> &mdash; identity, ad campaign</span></a>
                     </div>
                     <div>
-                        <span>2015</span><a href="#">Concur Labs &mdash; user experience, user interface, web design</a>
+                        <span class="portfolio-dates">2015</span>
+                        <a class="all-projects-hover" href="concur.html">Concur Labs<span class="hidden-xs-down"> &mdash; user experience, user interface, web design</span>
+                            <div class="all-project-details concur">
+                                <img src="img/concur/leavetime.jpg">
+                            </div>
+                        </a>
                     </div>
                     <div>
-                        <span>2015-2016</span><a href="#">Posters &mdash; Print</a>
+                        <span class="portfolio-dates">2015-2016</span><a href="posters.html" ontouchstart="showFlash(); flash(posterArray, 30, 0)" onmouseenter="showFlash(); flash(posterArray, 30, 0)" onmouseleave="clearInterval(flashy); hideFlash();" onclick="clearInterval(flashy); hideFlash();">Various Posters<span class="hidden-xs-down"> &mdash; Print</span></a>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
         <!-- <div class="section" data-navigation="The Angry Voters&mdash;interaction, data viz" data-link="angry.html">
@@ -327,137 +394,18 @@
        
 <!-- </div> -->
 
-<!--MOBILE-->
-<div class="container grid hidden-sm-up">
-    <div class="first row">
-        <a href="link.html">
-            <div class="col-md-12 grid-project" data-description="Link Light Rail&mdash;branding, identity, wayfinding">
-                <img src="img/BrandCover.jpg">
-                <span>Link Light Rail</span>
-            </div>
-        </a>
-    </div>
-    <div class="row">
-        <a href="tapeop.html">
-             <div class="col-md-12 grid-project" data-description="Tape Op Magazine&mdash;editorial, identity, web">
-                <img src="img/tapeopcover.jpg">
-                <span>Tape Op Magazine</span>
-            </div>
-        </a>
-    </div>
-    <div class="row">
-        <a href="portshowlio.html">
-            <div class="col-md-12 grid-project" data-description="2016 SCCA Portshowlio&mdash;interactive">
-                    <div class="port-grid-wrap">
-                        <img src="img/portshowlio/bigonelogo.svg">
-                    </div>
-                    <span>2016 SCCA Portshowlio Website</span>
-            </div>
-        </a>
-    </div>
-    <div class="row">
-        <a href="baby.html">
-            <div class="col-md-12 grid-project" data-description="Baby&mdash;art direction, ad campaign, packaging">
-                <img src="img/baby/babycover.jpg">
-                <span>Baby by ACNE</span>
-            </div>
-        </a>
-    </div>
-    <div class="row">
-        <a href="geotrek.html">
-            <div class="col-md-12 grid-project" data-description="Geotrek&mdash;user experience, prototyping">
-                <img src="img/geotrek/geomock.jpg">
-                <span>Geotrek</span>
-            </div>
-        </a>
-    </div>
-    <div class="row">
-        <a href="sdff.html">
-            <div class="col-md-12 grid-project" data-description="Seattle Documentary Film Festival&mdash;identity, ad campaign">
-                <img src="img/sdff/nicknews.jpg">
-                <span>Seattle Documentary Film Festival</span>
-            </div>
-        </a>
-    </div>
-    <div class="row">
-        <a href="http://myyawnis.com">
-            <div class="col-md-12 grid-project" data-description="My Yawn Is&mdash;interactive">
-                <div class="browser-padding">
-                    <div class="fake-browser-ui">
-                        <div class="frame">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <img src="img/yawn/intro2.jpg">
-                    </div>
-                </div>
-                <span>My Yawn Is</span>
-            </div>
-        </a>
-    </div>
-    <div class="row">
-        <a href="posters.html">
-             <div class="col-md-12 grid-project" data-description="Pet Peeves PSA Poster&mdash;poster, print">
-                <img src="img/hygiene.jpg">
-                <span>Pet Peeves PSA Poster</span>
-            </div>
-        </a>
-    </div>
-    <div class="row">
-        <a href="posters.html">
-            <div class="col-md-12 grid-project" data-description="Washed Out Gig Poster&mdash;poster, print">
-                 <img src="img/washedout.jpg">
-                 <span>Washed Out Gig Poster</span>
-            </div>
-        </a>
-    </div>
-    <div class="row">
-        <a href="posters.html">
-            <div class="col-md-12 grid-project" data-description="Usain Bolt Infographic&mdash;poster, print">
-                <img src="img/posters/bolt.jpg">
-                <span>Usain Bolt Infographic</span>
-            </div>
-        </a>
-    </div>
-    <div class="row">
-        <a href="posters.html">
-            <div class="col-md-12 grid-project" data-description="Top 5 Microbreweries&mdash;poster, print">
-                 <img src="img/posters/microbreweriesweb.jpg">
-                 <span>Top 5 Microbreweries</span>
-            </div>
-        </a>
-    </div>
-    <div class="row">
-        <a href="posters.html">
-             <div class="col-md-4 grid-project" data-description="Craiglist Ad&mdash;poster, print">
-                <img src="img/posters/shovel.jpg">
-                <span>Craiglist Ad</span>
-            </div>
-        </a>
-    </div>
-    <div class="row">
-        <a href="posters.html">
-            <div class="col-md-8 grid-project" data-description="Dirty Dozen & Clean 15 Mailer&mdash;poster, print">
-                <img src="img/posters/farmers.jpg">
-                 <span>Dirty Dozen & Clean 15 Mailer</span>
-            </div>
-        </a>
-    </div>
-   
-</div>
 
 
 
-    <div class="about-wrap">
+    <!-- <div class="about-wrap">
     <div class="about">
     <div id="about-x">
     	<img src="img/x.svg">
     </div>
-      <!-- <div id="bg" class="hidden-md-down"></div> -->
-      <!-- <div id="about-img" class="hidden-xs-down">
+      <div id="bg" class="hidden-md-down"></div>
+      <div id="about-img" class="hidden-xs-down">
         <img src="img/about.jpg">
-      </div> -->
+      </div>
 	    <div class="row">
 	        <div class="col-md-6 about">
 	            <h1>My name is Michel DeBauge. I am a multi-disciplinary designer and front-end developer with an interest in interactive user experience and product design.</h1>
@@ -466,7 +414,7 @@
 	        </div>
 	    </div> 
 	 </div>
- </div>
+ </div> -->
 
 <footer class="site-footer">
 
