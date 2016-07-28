@@ -18,7 +18,7 @@ $(document).ready(function() {
             scrollBar: true,
             loopTop: true,
             loopBottom: true,
-            anchors:['link', 'geotrek', 'tapeop', 'portshowlio', 'baby', 'sdff', 'posters','recreational'],
+            anchors:['info', 'link', 'geotrek', 'tapeop', 'growth', 'portshowlio', 'sdff','posters', 'allprojects'],
             onLeave: function(index, nextIndex, direction) {
               $('#flasher').hide();
             }
@@ -92,16 +92,16 @@ $('video').click(function() {
 });
 
 //Show/hide About
-$('#about-item').click(function(event){
-  event.stopPropagation();
-  event.preventDefault();
-  $('.about-wrap').fadeIn('slow');
-  $('.corner-home').fadeOut('slow');
-});
-$('.about-wrap').click(function(){
-  $('.about-wrap').fadeOut('slow');
-  $('.corner-home').fadeIn('slow');
-});
+// $('#about-item').click(function(event){
+//   event.stopPropagation();
+//   event.preventDefault();
+//   $('.about-wrap').fadeIn('slow');
+//   $('.corner-home').fadeOut('slow');
+// });
+// $('.about-wrap').click(function(){
+//   $('.about-wrap').fadeOut('slow');
+//   $('.corner-home').fadeIn('slow');
+// });
 
 //Corner Link
 $(document).ready(function() {
