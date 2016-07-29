@@ -1,6 +1,7 @@
 //Loading script
 $(window).load(function() {
     $(".se-pre-con").fadeOut("slow");
+    $(".se-pre-con-home").fadeOut("slow");
 });
 
 //Load svg

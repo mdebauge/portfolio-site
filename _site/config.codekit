@@ -74,22 +74,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/main.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/main.scss",
-		"outputAbbreviatedPath": "\/css\/main.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/css\/pace-theme-center-simple.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -898,7 +882,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 143466,
+		"initialSize": 119210,
 		"inputAbbreviatedPath": "\/img\/geotrek\/geomock2.jpg",
 		"outputAbbreviatedPath": "\/img\/geotrek\/geomock2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1059,6 +1043,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/Link\/BrandCover2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96927,
+		"inputAbbreviatedPath": "\/img\/Link\/BrandCover2.jpg",
+		"outputAbbreviatedPath": "\/img\/Link\/BrandCover2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/Link\/brochure1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1180,6 +1175,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/Link\/colorandtype.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99790,
+		"inputAbbreviatedPath": "\/img\/Link\/colorandtype.jpg",
+		"outputAbbreviatedPath": "\/img\/Link\/colorandtype.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/Link\/fabrication.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1213,6 +1219,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/Link\/logoits.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 102060,
+		"inputAbbreviatedPath": "\/img\/Link\/logoits.jpg",
+		"outputAbbreviatedPath": "\/img\/Link\/logoits.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/Link\/logopage.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1220,6 +1237,17 @@
 		"initialSize": 63760,
 		"inputAbbreviatedPath": "\/img\/Link\/logopage.jpg",
 		"outputAbbreviatedPath": "\/img\/Link\/logopage.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Link\/logosketches.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110096,
+		"inputAbbreviatedPath": "\/img\/Link\/logosketches.jpg",
+		"outputAbbreviatedPath": "\/img\/Link\/logosketches.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1242,6 +1270,17 @@
 		"initialSize": 184594,
 		"inputAbbreviatedPath": "\/img\/Link\/platformdrawing.jpg",
 		"outputAbbreviatedPath": "\/img\/Link\/platformdrawing.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Link\/Screenshot 2016-06-06 17.10.23.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129744,
+		"inputAbbreviatedPath": "\/img\/Link\/Screenshot 2016-06-06 17.10.23.png",
+		"outputAbbreviatedPath": "\/img\/Link\/Screenshot 2016-06-06 17.10.23.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1532,6 +1571,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/portshowlio\/screenfront.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72380,
+		"inputAbbreviatedPath": "\/img\/portshowlio\/screenfront.png",
+		"outputAbbreviatedPath": "\/img\/portshowlio\/screenfront.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/portshowlio\/splash.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1627,6 +1677,17 @@
 		"initialSize": 118062,
 		"inputAbbreviatedPath": "\/img\/posters\/washedoutmock.jpg",
 		"outputAbbreviatedPath": "\/img\/posters\/washedoutmock.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/posters\/washedoutmockfront.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81880,
+		"inputAbbreviatedPath": "\/img\/posters\/washedoutmockfront.jpg",
+		"outputAbbreviatedPath": "\/img\/posters\/washedoutmockfront.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
