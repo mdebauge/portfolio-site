@@ -1,7 +1,147 @@
+//PROJECT ARRAYS!!!//
+//Link Array
+var linkArray = new Array();
+
+linkArray[0] = new Image();
+linkArray[0].src = 'img/Link/logopage.jpg';
+
+linkArray[1] = new Image();
+linkArray[1].src = 'img/Link/trains.jpg';
+
+linkArray[2] = new Image();
+linkArray[2].src = 'img/Link/wayfinding.jpg';
+
+linkArray[3] = new Image();
+linkArray[3].src = 'img/Link/businesscards.jpg';
+
+linkArray[4] = new Image();
+linkArray[4].src = 'img/Link/ticketsandcard.jpg';
+
+linkArray[5] = new Image();
+linkArray[5].src = 'img/Link/BrochureCoverMocks.jpg';
+
+linkArray[6] = new Image();
+linkArray[6].src = 'img/Link/brochure1.jpg';
+
+linkArray[7] = new Image();
+linkArray[7].src = 'img/Link/WebsiteMock.jpg';
+
+linkArray[8] = new Image();
+linkArray[8].src = 'img/Link/mobilemock.jpg';
+
+//Tape Op Array
+var tapeopArray = new Array();
+
+tapeopArray[0] = new Image();
+tapeopArray[0].src = 'img/TapeOp/contents.jpg';
+
+tapeopArray[1] = new Image();
+tapeopArray[1].src = 'img/TapeOp/jacco.jpg';
+
+tapeopArray[2] = new Image();
+tapeopArray[2].src = 'img/TapeOp/sufjan1.jpg';
+
+tapeopArray[3] = new Image();
+tapeopArray[3].src = 'img/TapeOp/tapeopbrowser.jpg';
+
+tapeopArray[4] = new Image();
+tapeopArray[4].src = 'img/TapeOp/westernfirst.jpg';
+
+tapeopArray[5] = new Image();
+tapeopArray[5].src = 'img/TapeOp/sharon.jpg';
+
+tapeopArray[6] = new Image();
+tapeopArray[6].src = 'img/TapeOp/temples.jpg';
+
+//SDFF Array
+var sdffArray = new Array();
+
+sdffArray[0] = new Image();
+sdffArray[0].src = 'img/sdff/billboardmock.jpg';
+
+sdffArray[1] = new Image();
+sdffArray[1].src = 'img/sdff/bobnews.jpg';
+
+sdffArray[2] = new Image();
+sdffArray[2].src = 'img/sdff/closedoor.jpg';
+
+sdffArray[3] = new Image();
+sdffArray[3].src = 'img/sdff/nickposter.jpg';
+
+sdffArray[4] = new Image();
+sdffArray[4].src = 'img/sdff/amyposter.jpg';
+
+sdffArray[5] = new Image();
+sdffArray[5].src = 'img/sdff/bobtote.jpg';
+
+//Baby Array
+var babyArray = new Array();
+
+babyArray[0] = new Image();
+babyArray[0].src = 'img/baby/babyboy.jpg';
+
+babyArray[1] = new Image();
+babyArray[1].src = 'img/baby/babypackaging.jpg';
+
+babyArray[2] = new Image();
+babyArray[2].src = 'img/baby/babygirl.jpg';
+
+babyArray[3] = new Image();
+babyArray[3].src = 'img/baby/babypostermock.jpg';
+
+babyArray[4] = new Image();
+babyArray[4].src = 'img/baby/MagAd.jpg';
+
+//Poster Array
+var posterArray = new Array();
+
+posterArray[0] = new Image();
+posterArray[0].src = 'img/posters/microbreweriesweb.jpg';
+
+posterArray[1] = new Image();
+posterArray[1].src = 'img/posters/farmersback.jpg';
+
+posterArray[2] = new Image();
+posterArray[2].src = 'img/posters/bolt.jpg';
+
+posterArray[3] = new Image();
+posterArray[3].src = 'img/posters/shovel.jpg';
+
+posterArray[4] = new Image();
+posterArray[4].src = 'img/hygiene.jpg';
+
+posterArray[5] = new Image();
+posterArray[5].src = 'img/dreamgirls.jpg';
+
+posterArray[6] = new Image();
+posterArray[6].src = 'img/posters/skier.jpg';
+
+//Angry Array
+var concurArray = new Array();
+
+concurArray[0] = new Image();
+concurArray[0].src = 'img/concur/leavetime.jpg';
+
+concurArray[1] = new Image();
+concurArray[1].src = 'img/concur/personalcards.jpg';
+
+concurArray[2] = new Image();
+concurArray[2].src = 'img/concur/personal2.jpg';
+
+concurArray[3] = new Image();
+concurArray[3].src = 'img/concur/shareit.jpg';
+
+concurArray[4] = new Image();
+concurArray[4].src = 'img/concur/shareitcover.jpg';
+
+concurArray[5] = new Image();
+concurArray[5].src = 'img/concur/headerhome.jpg';
+
 //Loading script
 $(window).load(function() {
     $(".se-pre-con").fadeOut("slow");
     $(".se-pre-con-home").fadeOut("slow");
+    $('.about').hide(0).delay(500).fadeIn(2500);
 });
 
 //Load svg
@@ -22,6 +162,9 @@ $(document).ready(function() {
             anchors:['info', 'link', 'geotrek', 'tapeop', 'growth', 'portshowlio', 'sdff','posters', 'allprojects'],
             onLeave: function(index, nextIndex, direction) {
               $('#flasher').hide();
+              if(index == 2 && direction =='up') {
+                $('.about').hide(0).delay(500).fadeIn(1000);
+              }
             }
           });
       });
@@ -41,19 +184,7 @@ $(function() {
     });
 });
 
-// //Cycle script
-// $('.slides').cycle({
-//     fx:     'none',
-//     speed:   550,
-//     timeout: 5
-// }).cycle("pause");
 
-// // Pause &amp; play on hover
-// $('.project-hover').hover(function(){
-// 	$(this).find('.slides').addClass('active').cycle('resume');
-// 	}, function(){
-// 	$(this).find('.slides').removeClass('active').cycle('pause');
-// });
 
 //SVG animation test
 function simulatePathDrawing(path) {
@@ -179,145 +310,6 @@ function numberRandomizer(){
   return x;
 }
 
-//PROJECT ARRAYS!!!//
-//Link Array
-var linkArray = new Array();
-
-linkArray[0] = new Image();
-linkArray[0].src = 'img/Link/logopage.jpg';
-
-linkArray[1] = new Image();
-linkArray[1].src = 'img/Link/trains.jpg';
-
-linkArray[2] = new Image();
-linkArray[2].src = 'img/Link/wayfinding.jpg';
-
-linkArray[3] = new Image();
-linkArray[3].src = 'img/Link/businesscards.jpg';
-
-linkArray[4] = new Image();
-linkArray[4].src = 'img/Link/ticketsandcard.jpg';
-
-linkArray[5] = new Image();
-linkArray[5].src = 'img/Link/BrochureCoverMocks.jpg';
-
-linkArray[6] = new Image();
-linkArray[6].src = 'img/Link/brochure1.jpg';
-
-linkArray[7] = new Image();
-linkArray[7].src = 'img/Link/WebsiteMock.jpg';
-
-linkArray[8] = new Image();
-linkArray[8].src = 'img/Link/mobilemock.jpg';
-
-//Tape Op Array
-var tapeopArray = new Array();
-
-tapeopArray[0] = new Image();
-tapeopArray[0].src = 'img/TapeOp/contents.jpg';
-
-tapeopArray[1] = new Image();
-tapeopArray[1].src = 'img/TapeOp/jacco.jpg';
-
-tapeopArray[2] = new Image();
-tapeopArray[2].src = 'img/TapeOp/sufjan1.jpg';
-
-tapeopArray[3] = new Image();
-tapeopArray[3].src = 'img/TapeOp/tapeopbrowser.jpg';
-
-tapeopArray[4] = new Image();
-tapeopArray[4].src = 'img/TapeOp/westernfirst.jpg';
-
-tapeopArray[5] = new Image();
-tapeopArray[5].src = 'img/TapeOp/sharon.jpg';
-
-tapeopArray[6] = new Image();
-tapeopArray[6].src = 'img/TapeOp/temples.jpg';
-
-//SDFF Array
-var sdffArray = new Array();
-
-sdffArray[0] = new Image();
-sdffArray[0].src = 'img/sdff/billboardmock.jpg';
-
-sdffArray[1] = new Image();
-sdffArray[1].src = 'img/sdff/bobnews.jpg';
-
-sdffArray[2] = new Image();
-sdffArray[2].src = 'img/sdff/closedoor.jpg';
-
-sdffArray[3] = new Image();
-sdffArray[3].src = 'img/sdff/nickposter.jpg';
-
-sdffArray[4] = new Image();
-sdffArray[4].src = 'img/sdff/amyposter.jpg';
-
-sdffArray[5] = new Image();
-sdffArray[5].src = 'img/sdff/bobtote.jpg';
-
-//Baby Array
-var babyArray = new Array();
-
-babyArray[0] = new Image();
-babyArray[0].src = 'img/baby/babyboy.jpg';
-
-babyArray[1] = new Image();
-babyArray[1].src = 'img/baby/babypackaging.jpg';
-
-babyArray[2] = new Image();
-babyArray[2].src = 'img/baby/babygirl.jpg';
-
-babyArray[3] = new Image();
-babyArray[3].src = 'img/baby/babypostermock.jpg';
-
-babyArray[4] = new Image();
-babyArray[4].src = 'img/baby/MagAd.jpg';
-
-//Poster Array
-var posterArray = new Array();
-
-posterArray[0] = new Image();
-posterArray[0].src = 'img/posters/microbreweriesweb.jpg';
-
-posterArray[1] = new Image();
-posterArray[1].src = 'img/posters/farmersback.jpg';
-
-posterArray[2] = new Image();
-posterArray[2].src = 'img/posters/shovel.jpg';
-
-posterArray[3] = new Image();
-posterArray[3].src = 'img/posters/skier.jpg';
-
-posterArray[4] = new Image();
-posterArray[4].src = 'img/hygiene.jpg';
-
-posterArray[5] = new Image();
-posterArray[5].src = 'img/dreamgirls.jpg';
-
-//Angry Array
-var angryArray = new Array();
-
-angryArray[0] = new Image();
-angryArray[0].src = 'img/angry/angryprofiles.jpg';
-
-angryArray[1] = new Image();
-angryArray[1].src = 'img/angry/array/angryhead.jpg';
-
-angryArray[2] = new Image();
-angryArray[2].src = 'img/angry/array/dataviz1.jpg';
-
-angryArray[3] = new Image();
-angryArray[3].src = 'img/angry/array/tideturn.jpg';
-
-angryArray[4] = new Image();
-angryArray[4].src = 'img/angry/array/hillarytrump.jpg';
-
-angryArray[5] = new Image();
-angryArray[5].src = 'img/angry/array/whatwillhappen.jpg';
-
-angryArray[6] = new Image();
-angryArray[6].src = 'img/angry/array/pullquote.jpg';
-
 
 /*------------------------------------*/
 function nextImage(element, imgArray, setWidth, randomize)
@@ -384,4 +376,5 @@ function hideFlash() {
   $('#flasher').hide();
   document.getElementById('flasher').src = 'img/blank.png';
 }
+
 

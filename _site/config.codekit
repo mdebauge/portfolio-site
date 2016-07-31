@@ -812,6 +812,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/geotrek\/brandedmap\/brandedmap.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.0725e+06,
+		"inputAbbreviatedPath": "\/img\/geotrek\/brandedmap\/brandedmap.jpeg",
+		"outputAbbreviatedPath": "\/img\/geotrek\/brandedmap\/brandedmap.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/geotrek\/flowdiagram (1).jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -907,6 +918,39 @@
 		"initialSize": 636919,
 		"inputAbbreviatedPath": "\/img\/geotrek\/protopersona.jpg",
 		"outputAbbreviatedPath": "\/img\/geotrek\/protopersona.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/geotrek\/storyboards\/storyboards.001.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 520288,
+		"inputAbbreviatedPath": "\/img\/geotrek\/storyboards\/storyboards.001.jpeg",
+		"outputAbbreviatedPath": "\/img\/geotrek\/storyboards\/storyboards.001.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/geotrek\/storyboards\/storyboards.002.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 630963,
+		"inputAbbreviatedPath": "\/img\/geotrek\/storyboards\/storyboards.002.jpeg",
+		"outputAbbreviatedPath": "\/img\/geotrek\/storyboards\/storyboards.002.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/geotrek\/storyboards\/storyboards.003.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 453610,
+		"inputAbbreviatedPath": "\/img\/geotrek\/storyboards\/storyboards.003.jpeg",
+		"outputAbbreviatedPath": "\/img\/geotrek\/storyboards\/storyboards.003.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2251,6 +2295,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/link 2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/link 2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/link.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2904,7 +2957,7 @@
 	"sassDecimalPrecision": 10,
 	"sassOutputStyle": 0,
 	"sassUseLibsass": 0,
-	"shouldRunAutoprefixer": 0,
+	"shouldRunAutoprefixer": 1,
 	"shouldRunBless": 0,
 	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
 	"slimAutoOutputPathEnabled": 1,

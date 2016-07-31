@@ -15,6 +15,22 @@
   font-family: 'suisse';
   src: url("../fonts/SuisseIntl-Light.otf") format("opentype");
   font-weight: 300; }
+@font-face {
+  font-family: 'leitura';
+  src: url("../fonts/LeituraNews-Roman1.otf") format("opentype");
+  font-weight: 300; }
+@font-face {
+  font-family: 'leitura';
+  src: url("../fonts/LeituraNews-Roman2.otf") format("opentype");
+  font-weight: 400; }
+@font-face {
+  font-family: 'leitura';
+  src: url("../fonts/LeituraNews-Roman3.otf") format("opentype");
+  font-weight: 700; }
+@font-face {
+  font-family: 'leitura';
+  src: url("../fonts/LeituraNews-Roman4.otf") format("opentype");
+  font-weight: 900; }
 /**
  * Reset some basic elements
  */
@@ -480,8 +496,8 @@ body {
       font-weight: bold; } }
 
 .navbar-light .navbar-brand:hover {
-  border-bottom: 1px solid #000;
-  color: #000; }
+  color: #000;
+  opacity: 0.5; }
 
 .navbar-push-right {
   left: 5.25% !important; }
@@ -498,8 +514,8 @@ body {
       font-size: 1rem; } }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-  border-bottom: 1px solid #000;
-  color: #000; }
+  color: #000;
+  opacity: 0.5; }
 
 .navbar-nav .nav-item + .nav-item {
   margin-left: 2rem; }
@@ -1035,9 +1051,9 @@ img {
   margin-top: 1rem; }
   @media (min-width: 544px) {
     .project-head h1 {
-      font-size: 1rem;
+      font-size: 1.15rem;
       text-align: left;
-      line-height: 2.2rem;
+      line-height: 2rem;
       margin-top: 0; } }
 .project-head p {
   font-size: 1rem;
@@ -1048,17 +1064,18 @@ img {
     .project-head p {
       font-size: 1.3rem; } }
 .project-head h2 {
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 1.15rem;
+  font-weight: 300;
   text-align: left;
+  color: rgba(0, 0, 0, 0.8);
   padding: 1rem;
   line-height: 1.5rem; }
   @media (min-width: 544px) {
     .project-head h2 {
-      font-size: 1rem;
-      line-height: 2.2rem;
+      font-size: 1.15rem;
+      line-height: 2rem;
       padding: 0;
-      font-weight: 400; } }
+      font-weight: 300; } }
 .project-head h3 {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -1194,16 +1211,16 @@ video {
  *Process
  */
 .process h4 {
-  font-size: 0.85rem;
-  text-decoration: underline;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem; }
+  font-size: 1.15rem;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
+  margin-bottom: 0.5rem; }
 
 .process p {
-  font-weight: 400;
-  font-size: 0.85rem;
-  line-height: 1.5rem;
+  font-weight: 300;
+  font-size: 1.15rem;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 2rem;
   margin-left: 0rem; }
 
 .gray {
