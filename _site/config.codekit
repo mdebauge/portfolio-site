@@ -74,6 +74,22 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/main.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/main.scss",
+		"outputAbbreviatedPath": "\/css\/main.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/css\/pace-theme-center-simple.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -423,6 +439,17 @@
 		"initialSize": 919010,
 		"inputAbbreviatedPath": "\/img\/angry\/angryhead.jpg",
 		"outputAbbreviatedPath": "\/img\/angry\/angryhead.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/angry\/angryprofiles (1).jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 290060,
+		"inputAbbreviatedPath": "\/img\/angry\/angryprofiles (1).jpg",
+		"outputAbbreviatedPath": "\/img\/angry\/angryprofiles (1).jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -845,6 +872,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/geotrek\/geologo (1).png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51830,
+		"inputAbbreviatedPath": "\/img\/geotrek\/geologo (1).png",
+		"outputAbbreviatedPath": "\/img\/geotrek\/geologo (1).png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/geotrek\/geologo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -962,6 +1000,28 @@
 		"initialSize": 280282,
 		"inputAbbreviatedPath": "\/img\/growth\/explorestocks.jpg",
 		"outputAbbreviatedPath": "\/img\/growth\/explorestocks.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/growth\/growthflow-01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 459606,
+		"inputAbbreviatedPath": "\/img\/growth\/growthflow-01.png",
+		"outputAbbreviatedPath": "\/img\/growth\/growthflow-01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/growth\/growthflow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 221539,
+		"inputAbbreviatedPath": "\/img\/growth\/growthflow.png",
+		"outputAbbreviatedPath": "\/img\/growth\/growthflow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
